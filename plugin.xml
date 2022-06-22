@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+       <label lang="de">ASEasyBillShopware5Sync</label>
+       <label lang="en">ASEasyBillShopware5Sync</label>
+
+       <version>0.0.1</version>
+       <license>MIT</license>
+       <author>Stefano Rutishauser</author>
+       <link>https://github.com/AryaSvitkona</link>
+       <compatibility minVersion="5.5.0"/>
+
+        <description lang="EN">Synchronises articles of a Shopware 5 instance into an Easybill instance via cronjob</description>
+        <description lang="DE">Synchronisiert Artikel einer Shopware 5 Instanz in eine Easybill Instanz via Cronjob</description>
+
+       <changelog version="0.0.1">
+           <changes lang="de">Erstveröffentlichung</changes>
+           <changes lang="en">First release</changes>
+       </changelog>
+   </plugin>

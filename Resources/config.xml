@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ *
+ * Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+ * @author Stefano Rutishauser (http://www.github.com/AryaSvitkona)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text">
+            <name>easybillAPIKey</name>
+            <label lang="de">Easybill API Key</label>
+            <label lang="en">Easybill API Key</label>
+            <value></value>
+        </element>
+        <element required="true" type="text">
+            <name>easybillURL</name>
+            <label lang="de">Easybill URL</label>
+            <label lang="en">Easybill URL</label>
+            <value>https://api.easybill.de/rest/v1</value>
+            <description lang="de">URL zu API Endpunkt von Easybill</description>
+            <description lang="en">URL to API endpoint Easybill</description>
+        </element>
+    </elements>
+</config>
