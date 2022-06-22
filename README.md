@@ -21,7 +21,7 @@
     <img src="https://picsum.photos/200" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Shopware to Easybill article sync (WIP)</h3>
 
   <p align="center">
     project_description
